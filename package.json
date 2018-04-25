@@ -1,6 +1,6 @@
 {
   "author": "Intellica Group",
-  "name": "gi-util-update",
+  "name": "gi-util-updated",
   "version": "1.9.8",
   "main": "./server/index.coffee",
   "scripts": {
