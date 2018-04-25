@@ -25,6 +25,8 @@ getConnectionString = (conf) ->
     uri += "?ssl=false"
   if conf.authSource?
     uri += "&authSource=" + conf.authSource
+  unless conf.replicaSet is null
+    uri += "&replicaSet=" + conf.replicaSet
   uri
 
 schemaFactory = (def) ->
