@@ -1,7 +1,7 @@
 {
   "author": "Intellica Group",
   "name": "gi-util-updated",
-  "version": "1.9.8",
+  "version": "1.9.81",
   "main": "./server/index.coffee",
   "scripts": {
     "test": "grunt ci"
