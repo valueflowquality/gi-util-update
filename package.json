@@ -1,7 +1,7 @@
 {
   "author": "Intellica Group",
   "name": "gi-util-updated",
-  "version": "1.9.81",
+  "version": "1.9.82",
   "main": "./server/index.coffee",
   "scripts": {
     "test": "grunt ci"
@@ -14,7 +14,7 @@
     "async": "~0.2.8",
     "chai": "~1.7.2",
     "coffee-script": "~1.7.1",
-    "connect-mongo": "~0.8.0",
+    "connect-mongo-self-fork": "0.8.2",
     "moment": "~2.0.0",
     "mongoose": "4.0.7",
     "mongoose-long": "0.0.2",
