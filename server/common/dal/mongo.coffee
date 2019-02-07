@@ -2,7 +2,7 @@ _ = require 'underscore'
 mongoose = require 'mongoose'
 require('mongoose-long')(mongoose)
 crudModelFactory = require '../crudModelFactory'
-connectMongo = require 'connect-mongo-self-fork'
+connectMongo = require 'connect-mongo'
 
 getConnectionString = (conf) ->
   uri = "mongodb://"
